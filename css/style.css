@@ -1,0 +1,593 @@
+nav {
+  height: 95px;
+  width: auto;
+}
+.of {
+  position: relative;
+  left: 11%;
+}
+.firm {
+  position: relative;
+  left: 20%;
+}
+.re {
+  position: relative;
+  left: 28%;
+}
+.ko {
+  position: relative;
+  left: 36%;
+}
+.logo {
+  position: relative;
+  left: -100%;
+  top: -2px;
+}
+.list {
+  font-family: "Inter", sans-serif;
+}
+.fs {
+  font-size: 18px;
+}
+.search {
+  position: relative;
+  left: -4%;
+  top: -3%;
+}
+.search-input {
+  height: 32px;
+  width: 32px;
+  font-size: 20px;
+
+  position: relative;
+  border: 1px solid transparent;
+  cursor: pointer;
+  z-index: 2;
+  background: transparent;
+  transition: width 0.3s;
+}
+.search-input:focus,
+.search-input:valid {
+  width: 100px;
+  outline: none;
+  background: #ffffff;
+  border-bottom: 1px solid black;
+  cursor: default;
+  margin-right: 0;
+  margin-left: 0;
+  position: relative;
+}
+.search-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+}
+.slider-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 975px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.info-panel {
+  flex: 2;
+  padding: 20px;
+  height: 100%;
+  width: 66%;
+  box-sizing: border-box;
+  background: #dcc1ab;
+  overflow: auto;
+}
+.image-panel {
+  flex: 1;
+  text-align: center;
+  width: 34%;
+  height: 100%;
+}
+.image-panel img {
+  height: 100%;
+}
+.navigation-arrows {
+  display: flex;
+
+  margin-top: 10px;
+  position: relative;
+  left: -10%;
+  width: 250px;
+  height: 120px;
+}
+.navigation-arrows .prev-arrow img {
+  width: 70px;
+  height: 70px;
+}
+.navigation-arrows .next-arrow img {
+  width: 70px;
+  height: 70px;
+}
+.navigation-arrows button {
+  background: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  position: relative;
+  left: 76%;
+  top: 352%;
+}
+.slider-container .info-panel .text {
+  font-family: "Montserrat", sans-serif;
+  width: 700px;
+}
+.slider-container .info-panel .text h1 {
+  font-size: 75px;
+  position: relative;
+  left: 14%;
+  top: 19vmin;
+}
+.slider-container .info-panel .text p {
+  font-size: 20px;
+  padding-top: 50px;
+  position: relative;
+  left: 14%;
+  top: 19vmin;
+}
+.slider-container .info-panel button {
+  border-radius: 50px;
+  border: none;
+  height: 65px;
+  font-size: 22px;
+}
+.slider-container .info-panel .cont-bnt {
+  background-color: #1b5b31;
+  color: white;
+  position: relative;
+  left: 10%;
+  top: 29vmin;
+  width: 275px;
+}
+.slider-container .info-panel .cont-bnt:hover {
+  border: 1px solid #1b5b31;
+  color: #1b5b31;
+  background-color: transparent;
+}
+.slider-container .info-panel .rea-bnt {
+  background-color: transparent;
+  border: 1px solid #1b5b31;
+  color: #1b5b31;
+  position: relative;
+  left: 15%;
+  top: 28.7vmin;
+  width: 330px;
+}
+.slider-container .info-panel .rea-bnt img {
+  height: 40px;
+  width: 45px;
+  padding-bottom: 5px;
+}
+.slider-container .info-panel .rea-bnt:hover {
+  background-color: #1b5b31;
+  color: white;
+
+}
+.slider-container .info-panel .rea-bnt:hover img {
+  filter: brightness(0) invert(1);
+}
+.oferta {
+  background-color: #f5f0ec;
+  height: 1255px;
+}
+.oferta .text2 .ak1 {
+  color: #1b5b31;
+  font-size: 15px;
+  position: relative;
+  top: -11px;
+}
+.oferta .text2 {
+  width: 50%;
+  position: relative;
+  left: 14%;
+  top: 14%;
+}
+.oferta .text2 h2 {
+  font-size: 60px;
+}
+.oferta .text2 .lf {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+.oferta .text2 .rf {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+.oferta .text2 p {
+  font-family: "Inter", sans-serif;
+  position: relative;
+  font-size: 21px;
+  top: 34px;
+}
+.oferta .boxes .box1 {
+  width: 500px;
+  height: 493px;
+  border-radius: 35px;
+  background-color: white;
+  padding: 50px;
+  margin-left: 120px;
+  position: relative;
+  top: 34.5vmin;
+}
+.oferta .boxes .box1:hover {
+  box-shadow: 0px 0px 10px black;
+}
+.oferta .boxes .box2 {
+  width: 500px;
+  height: 493px;
+  border-radius: 35px;
+  background-color: white;
+  padding: 50px;
+  margin-left: 87px;
+  position: relative;
+  top: 34.5vmin;
+}
+.oferta .boxes .box2:hover {
+  box-shadow: 0px 0px 10px black;
+}
+.oferta .boxes .box3 {
+  width: 500px;
+  height: 493px;
+  border-radius: 35px;
+  background-color: white;
+  padding: 50px;
+  margin-left: 87px;
+  position: relative;
+  top: 34.5vmin;
+}
+.oferta .boxes .box3:hover {
+  box-shadow: 0px 0px 10px black;
+}
+.oferta .boxes {
+  display: flex;
+  flex-direction: row;
+}
+.oferta .boxes img {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 12px;
+}
+.oferta .boxes h3 {
+  font-size: 40px;
+  position: relative;
+  top: 50px;
+}
+.oferta .boxes p {
+  font-size: 20px;
+  position: relative;
+  top: 33px;
+}
+.oferta .boxes a {
+  font-size: 23px;
+  position: relative;
+  top: 70px;
+  text-decoration: none;
+  color: #1b5b31;
+  border-bottom: 1px solid #1b5b31;
+}
+.oferta .boxes a:hover {
+  border-bottom: 3px solid #1b5b31;
+  border-radius: 5px;
+}
+.oferta .boxes a img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: -0.5%;
+  left: 5px;
+}
+.ofirmie {
+  background-color: #1b5b31;
+  height: 957px;
+  width: 100%;
+  color: white;
+}
+.ofirmie .sticky-sidebar {
+  width: 40%;
+  float: left;
+}
+.ofirmie .sticky-sidebar img {
+  width: 915px;
+  height: 957px;
+}
+.ofirmie .right {
+  width: 60%;
+  float: left;
+  padding: 15%;
+}
+.ofirmie .right .lf2 {
+  font-family: "Montserrat", sans-serif;
+}
+.ofirmie .right .rf2 {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+}
+.ofirmie .right .text3 {
+  position: relative;
+  left: 15%;
+  top: -100px;
+}
+.ofirmie .right .text3 .ak2 {
+  position: relative;
+  font-size: 15px;
+  top: -8px;
+  left: -4px;
+}
+.ofirmie .right .text3 h2 {
+  position: relative;
+  top: -4px;
+  left: -5px;
+  font-size: 65px;
+  padding-right: 200px;
+}
+.ofirmie .right .text3 p {
+  font-size: 22px;
+  position: relative;
+  left: -4px;
+  top: 35px;
+}
+.ofirmie .right button {
+  background-color: transparent;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid white;
+  height: 65px;
+  width: 255px;
+  position: relative;
+  left: 14.5%;
+  top: -25px;
+  font-size: 22px;
+}
+.ofirmie .right .poznaj img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 10px;
+  top: -2px;
+}
+.ofirmie .right button:hover {
+  box-shadow: 0px 0px 10px white;
+}
+.image {
+  flex: 1 0 calc(33.33% - 20px);
+  margin: 10px;
+  overflow: hidden;
+  transition: flex 0.5s ease, height 0.5s ease, filter 0.5s ease,
+    background-color 0.5s ease; /* Add background-color transition */
+  position: relative;
+  cursor: pointer;
+  width: 600px;
+  height: 300px;
+}
+.opened .image {
+  flex: 1;
+  height: 400px; /* Adjust the expanded height */
+  background-color: transparent; /* Remove background color when expanded */
+}
+.half {
+  height: 100px; /* Set desired partial height */
+  transition: height 0.5s ease, filter 0.5s ease, background-color 0.5s ease; /* Add background-color transition */
+  filter: blur(5px); /* Apply initial blurring */
+  background-color: #dcc1ab; /* Add background color */
+}
+.disable {
+  visibility: hidden;
+}
+.opened .disable {
+  visibility: visible;
+  margin-bottom: 50px;
+}
+.grid-item {
+  width: 400px;
+  float: left;
+  background-color: green;
+}
+.grid-item--width2 {
+  width: 600px;
+  float: left;
+  background-color: green;
+}
+.grid-item--width3 {
+  width: 800px;
+  float: left;
+  background-color: green;
+}
+.expanded .grid-item--width2 {
+  width: 600px;
+}
+.expanded .grid-item--width3 {
+  width: 800px;
+}
+.expanded .grid-item {
+  width: 400px;
+}
+.opened .half {
+  filter: none;
+  /* Remove blurring when expanded */
+  background-color: #dcc1ab;
+  /* Remove background color when expanded */
+}
+#open-btn {
+  position: absolute;
+  bottom: 115px;
+  transition: bottom 0.5s ease;
+  z-index: 1000;
+  background-color: transparent;
+  border: 2px solid black;
+  width: 160px;
+  height: 70px;
+  border-radius: 50px;
+  font-size: 2vmin;
+}
+.opened #open-btn {
+  bottom: 50px;
+  /* Adjust this value as needed */
+}
+.realizacje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 2425px;
+  position: relative;
+  top: -128px;
+  background-color: #dcc1ab;
+  padding: 270px 12px 12px 12px;
+}
+.realizacje .text4 .ak3 {
+  position: relative;
+  left: -117%;
+  top: -115px;
+  font-size: 18px;
+  color: #1b5b31;
+}
+.realizacje .text4 h2 {
+  font-size: 60px;
+  position: relative;
+  left: -117%;
+  top: -108px;
+}
+.realizacje .text4 .lf3 {
+  font-family: "Montserrat", sans-serif;
+}
+.realizacje .text4 .rf3 {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+.contact {
+  background-color: white;
+  height: 438px;
+}
+.contact .contact-in {
+  background-color: #1b5b31;
+  color: white;
+  margin: 70px 254px 70px 266px;
+  height: 476px;
+  position: relative;
+  top: -118px;
+}
+.contact .contact-in .text5 h2 {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  font-size: 53px;
+  left: 10.5%;
+  top: 188px;
+}
+.contact .contact-in .text5 .lf4 {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.contact .contact-in .text5 .rf4 {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+.contact .contact-in .text5 p {
+  position: relative;
+  left: 74.5%;
+  top: 12px;
+  font-size: 23px;
+  margin-right: 1160px;
+}
+.contact .contact-in button {
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  color: #1b5b31;
+  position: relative;
+  left: 74.25%;
+  top: 26px;
+  height: 60px;
+  width: 164px;
+  font-size: 23px;
+}
+.contact .contact-in button:hover{
+  box-shadow: 0px 0px 10px white;
+}
+footer {
+  background-color: #111111;
+  color: white;
+  height: 667px;
+  clear: both;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  padding: 50px 255px 50px 270px;
+}
+footer .f-logo {
+  position: relative;
+  top: 75px;
+  left: -3px;
+  height: 25px;
+  width: 150px;
+}
+footer button {
+  border-radius: 50px;
+  color: white;
+  background-color: #1b5b31;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 21px;
+  height: 65px;
+  width: 277px;
+  position: relative;
+  left: 80%;
+  top: -17px;
+}
+footer button:hover{
+  box-shadow: 0px 0px 10px white;
+}
+footer hr {
+  border-width: 2px;
+  position: relative;
+  top: 50px;
+}
+footer .message1 {
+  position: relative;
+  left: 49.5%;
+  top: 49px;
+  font-size: 21px;
+}
+footer .message2 {
+  position: relative;
+  left: 71.9%;
+  top: 88px;
+  font-size: 18px;
+}
+footer .message3 {
+  position: relative;
+  left: 85.3%;
+  top: 43px;
+  font-size: 18px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 117px;
+  left: -5px;
+  font-size: 19px;
+  margin-right: 55px;
+}
+footer .prawa {
+  font-size: 21px;
+  position: relative;
+  top: 190px;
+  left: -5px;
+}
+footer .f-logo2 {
+  position: relative;
+  left: 80%;
+  top: 140px;
+  width: 277px;
+}

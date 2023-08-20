@@ -1,0 +1,381 @@
+/* Responsywność na tablety */
+@media (max-width: 1024px) {
+  /* Nawaigacja */
+  nav {
+    height: 75px;
+  }
+
+  .of,
+  .firm,
+  .re,
+  .ko,
+  .logo {
+    left: 0;
+  }
+
+  /* Wyszukiwanie */
+  .search {
+    left: -2%;
+    top: -2%;
+  }
+
+  /* Slider */
+  .slider-container .info-panel .text h1 {
+    font-size: 50px;
+    left: 5%;
+  }
+  .slider-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .info-panel {
+    flex: 2;
+    padding: 20px;
+    height: 100%;
+    width: 60%;
+    box-sizing: border-box;
+    background: #dcc1ab;
+    overflow: auto;
+  }
+  .image-panel {
+    flex: 1;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+  }
+  .image-panel img {
+    height: 100%;
+    width: 525px;
+  }
+  .navigation-arrows {
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    left: -12.8%;
+    top: 38px;
+    width: 50px;
+    height: 70px;
+  }
+  .navigation-arrows .prev-arrow img {
+    width: 50px;
+    height: 50px;
+  }
+  .navigation-arrows .next-arrow img {
+    width: 50px;
+    height: 50px;
+  }
+  .navigation-arrows button {
+    background: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    position: relative;
+    left: 76%;
+    top: 353%;
+  }
+  .slider-container .info-panel .text {
+    font-family: "Montserrat", sans-serif;
+    width: 500px;
+  }
+  .slider-container .info-panel .text h1 {
+    font-size: 45px;
+    position: relative;
+    left: 60px;
+    top: 8vmin;
+    padding-right: 200px;
+  }
+  .slider-container .info-panel .text p {
+    font-size: 16px;
+    padding-top: 20px;
+    position: relative;
+    left: 60px;
+    top: 10vmin;
+    padding-right: 160px;
+  }
+  .slider-container .info-panel button {
+    border-radius: 50px;
+    border: none;
+    height: 45px;
+    font-size: 16px;
+  }
+  .slider-container .info-panel .cont-bnt {
+    background-color: #1b5b31;
+    color: white;
+    position: relative;
+    left: 30%;
+    top: 13vmin;
+    width: 160px;
+  }
+
+  .slider-container .info-panel .rea-bnt {
+    background-color: transparent;
+    border: 1px solid #1b5b31;
+    color: #1b5b31;
+    position: relative;
+    left: -19%;
+    top: 21vmin;
+    width: 220px;
+  }
+  .slider-container .info-panel .rea-bnt img {
+    height: 30px;
+    width: 35px;
+    padding-bottom: 2px;
+  }
+  .oferta {
+    background-color: #f5f0ec;
+    height: 2050px;
+  }
+  /* Oferta */
+  .oferta .text2 {
+    width: 100%;
+    position: relative;
+    top: 50px;
+    left: -1%;
+    text-align: center;
+  }
+
+  .oferta .text2 h2 {
+    font-size: 40px;
+  }
+  .oferta .text2 p {
+    font-size: 18px;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .oferta .boxes {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -100px;
+  }
+  .oferta .boxes .box1 {
+    max-width: 100%;
+    height: 493px;
+    border-radius: 35px;
+    background-color: white;
+    margin-bottom: 50px;
+    position: relative;
+    top: 30vmin;
+    left: -65px;
+  }
+  .oferta .boxes .box2 {
+    max-width: 100%;
+    height: 493px;
+    border-radius: 35px;
+    background-color: white;
+    margin-bottom: 50px;
+    position: relative;
+    top: 30vmin;
+    left: -48px;
+  }
+  .oferta .boxes .box3 {
+    max-width: 100%;
+    height: 493px;
+    border-radius: 35px;
+    background-color: white;
+    margin-bottom: 50px;
+    position: relative;
+    top: 30vmin;
+    left: -48px;
+  }
+  .ofirmie {
+    background-color: #1b5b31;
+    height: 1200px;
+    width: 100%;
+    color: white;
+  }
+  /* O firmie */
+  .ofirmie .sticky-sidebar {
+    width: 100%;
+  }
+  .ofirmie .sticky-sidebar img {
+    width: 100%;
+    height: 600px;
+  }
+  .ofirmie .right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .ofirmie .right .text3 {
+    position: relative;
+    text-align: center;
+    padding-right: 30px;
+    left: 10px;
+    top: 50px;
+  }
+  .ofirmie .right .text3 .ak2 {
+    font-size: 15px;
+  }
+  .ofirmie .right .text3 h2 {
+    position: relative;
+    top: -4px;
+    left: 100px;
+    font-size: 45px;
+    padding-right: 200px;
+  }
+  .ofirmie .right .text3 p {
+    font-size: 18px;
+    position: relative;
+    left: 15px;
+    top: 35px;
+  }
+  .ofirmie .right button {
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    height: 65px;
+    width: 255px;
+    position: relative;
+    left: 34%;
+    top: 150px;
+    font-size: 22px;
+  }
+
+  /* Realizacje */
+  .realizacje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 2425px;
+    position: relative;
+    top: -128px;
+    background-color: #dcc1ab;
+    padding: 170px 12px 12px 12px;
+  }
+  .realizacje .text4 {
+    text-align: center;
+    position: relative;
+    left: 42%;
+  }
+  .realizacje .text4 .ak3 {
+    position: relative;
+    left: -100%;
+    top: -115px;
+    font-size: 18px;
+  }
+  .realizacje #open-btn {
+    position: relative;
+    top: -30px;
+  }
+  .realizacje .text4 h2 {
+    font-size: 45px;
+    left: -100%;
+    top: -108px;
+  }
+  .contact {
+    background-color: white;
+    height: 500px;
+  }
+  /* Kontakt */
+  .contact .contact-in {
+    background-color: #1b5b31;
+    color: white;
+    margin: 70px 80px 70px 80px;
+    height: 476px;
+    position: relative;
+    top: -100px;
+  }
+  .contact .contact-in .text5 h2 {
+    left: 0;
+    top: 10px;
+    font-size: 45px;
+    text-align: center;
+  }
+  .contact .contact-in .text5 p {
+    position: relative;
+    top: 50px;
+    left: 5%;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 50px;
+  }
+  .contact .contact-in button {
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: #1b5b31;
+    position: relative;
+    left: 37%;
+    top: 100px;
+    height: 60px;
+    width: 164px;
+    font-size: 23px;
+  }
+  /* Stopka */
+  footer {
+    background-color: #111111;
+    color: white;
+    height: 400px;
+    clear: both;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    padding: 20px 50px 20px 50px;
+  }
+  footer .f-logo {
+    position: relative;
+    top: 50px;
+    left: 5%;
+    height: 25px;
+    width: 150px;
+  }
+  footer button {
+    position: relative;
+    width: 200px;
+    left: 60%;
+    top: 30px;
+    font-size: 18px;
+  }
+
+  footer hr {
+    position: relative;
+    top: 30px;
+  }
+
+  footer .message1 {
+    position: relative;
+    font-size: 18px;
+    left: 5%;
+    top: 90px;
+  }
+
+  footer .message2 {
+    position: relative;
+    left: 22%;
+    top: 80px;
+  }
+
+  footer .message3 {
+    position: relative;
+    left: 50%;
+    top: 38px;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 90px;
+    font-size: 19px;
+    margin-right: 55px;
+  }
+
+  footer .prawa {
+    position: relative;
+    top: 60px;
+  }
+
+  footer .f-logo2 {
+    position: relative;
+    left: 70%;
+    top: 15px;
+    width: 200px;
+  }
+}
